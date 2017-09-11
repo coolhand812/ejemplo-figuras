@@ -10,7 +10,6 @@ public class Triangulo extends Figura
     private float cateto1;
     private float cateto2;
     private float hipotenusa;
-    private float x;
     /**
      * Este es el constructor de la clase triangulo. pon ceros en los que no necesitas.
      * @param unaBase Es la base del triangulo.
@@ -26,7 +25,6 @@ public class Triangulo extends Figura
         cateto1 = unCateto1;
         cateto2 = unCateto2;
         hipotenusa = unaHipotenusa;
-        x = 0;
     }
     
     /**
@@ -48,11 +46,11 @@ public class Triangulo extends Figura
         {
             perimetro = cateto1 + cateto2 + hipotenusa;
         }
-        if(cateto1!=0 && cateto2 == 0 && hipotenusa!=0)
+        /*if(cateto1!=0 && cateto2 == 0 && hipotenusa!=0)
         {
-            x = (hipotenusa * hipotenusa)-(cateto1 * cateto1)
-            perimetro = Math.sqrt();
-        }
+            float x = ((hipotenusa * hipotenusa)-(cateto1 * cateto1));
+            perimetro = Math.sqrt(x);
+        }*/
         
     }
 }
