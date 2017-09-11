@@ -23,4 +23,13 @@ public class Cuadrado extends Figura
     {
         area = lado * lado;
     }
+    
+    /**
+     * Este metodo es para calcular el perimetro del cuadrado.
+     */
+    @Override
+    public void calcularPerimetro()
+    {
+        perimetro = 4 * lado;
+    }
 }
